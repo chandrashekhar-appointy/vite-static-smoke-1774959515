@@ -7,24 +7,24 @@ const content = {
     title: 'Interfaces with a strong point of view.',
     body: 'Studio North helps product teams launch clearer brands, sharper landing pages, and calmer software experiences.',
     cta: 'Read our story',
-    href: '/about.html',
+    href: 'about.html',
   },
   about: {
     eyebrow: 'About Studio North',
     title: 'Small team. High craft. Very online.',
     body: 'We work across product strategy, visual systems, and front-end implementation. The goal is always the same: useful software that feels deliberate.',
     cta: 'Back home',
-    href: '/index.html',
+    href: 'index.html',
   }
 }[page]
 
 document.querySelector('#app').innerHTML = `
   <main class="shell">
     <nav class="nav">
-      <a class="brand" href="/index.html">Studio North</a>
+      <a class="brand" href="index.html">Studio North</a>
       <div class="links">
-        <a href="/index.html">Home</a>
-        <a href="/about.html">About</a>
+        <a href="index.html">Home</a>
+        <a href="about.html">About</a>
       </div>
     </nav>
     <section class="hero">
